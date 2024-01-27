@@ -1,0 +1,1683 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/slider.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+		<link rel="stylesheet" href="https://jqueryui.com//resources/demos/style.css">
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header_top">
+				<div class="header_top_container">
+					<div class="header_menu menu">
+						<div class="menu_icon">
+							<span></span>
+						</div>
+						<nav class="menu_body">
+							<ul class="menu_list">
+								<li class="menu_item_location">
+									<a class="menu_link menu_link_location"><i class="icon-location"></i><span class="text_location">Ваш регион доставки:</span><span class="location">Москва</span></a>
+									<span class="menu_arrow icon-arrow-bottom"></span>
+									<ul class="menu_sub-list">
+										<li>
+											<a href="" class="menu_sub-link">Санкт петербург</a>
+										</li>
+										<li>
+											<a href="" class="menu_sub-link">Иваха</a>
+										</li>
+										<li>
+											<a href="" class="menu_sub-link">Калининград</a>
+										</li>
+									</ul>
+								</li>
+								<li><a href="#" class="menu_link">Магазины</a></li>
+								<li><a href="#" class="menu_link">Помощь</a></li>
+								<li><a href="#" class="menu_link">Блоги</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="block_benefit">
+						<div class="block_benefit_item">
+							<i class="icon_benefit icon-delivery"></i>
+							<p class="text_benefit">Бесплатная доставка *</p>
+						</div>
+						<div class="block_benefit_item">
+							<i class="icon_benefit icon-payment-location"></i>
+							<p class="text_benefit">Оплата при получении</p>
+						</div>
+						<div class="block_benefit_item">
+							<i class="icon_benefit icon-return"></i>
+							<p class="text_benefit">Возврат в течение 14 дней</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header_body">
+				<div class="header_body_container">
+					<div class="header_body_category">
+						<a href="#" class="header_body_category_item active">Мужчинам</a>
+						<a href="#" class="header_body_category_item">Женщинам</a>
+						<a href="#" class="header_body_category_item">Детям</a>
+					</div>
+					<div class="header_body_logo">
+						<img src="images/image_logo_header.png" class="header_logo"/>
+					</div>
+					<div class="header_body_use_items">
+						<a href="#registration" class="header_body_use_item popup_link">
+							<i class="header_body_use_icon icon-user"></i>
+							<p class="header_body_use_text">ВОЙТИ</p>
+						</a>
+						<a href="#" class="header_body_use_item">
+							<i class="header_body_use_icon fa fa-star" aria-hidden="true"></i>
+							<p class="header_body_use_text">Избранное</p>
+						</a>
+						<a href="#" class="header_body_use_item">
+							<i class="header_body_use_icon icon-cart"></i>
+							<p class="header_body_use_text">Корзина</p>
+						</a>
+						<a href="#search" class="header_body_use_item popup_link">
+							<i class="header_body_use_icon icon-search"></i>
+							<p class="header_body_use_text">ПОИСК</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="header_catalog">
+				<div class="header_catalog_container">
+					<ul class="catalog">
+						<li data-da=".menu_list, 992, last" class="catalog_item"><a href="#" class="catalog_link active">Новинки</a></li>
+						<li data-da=".menu_list, 992, last" class="catalog_item"><a href="#" class="catalog_link">Сноуборд</a></li>
+						<li data-da=".menu_list, 992, last" class="catalog_item"><a href="#" class="catalog_link">Лыжи</a></li>
+						<li data-da=".menu_list, 992, last" class="catalog_item"><a href="#" class="catalog_link">Скейт</a></li>
+						<li data-da=".menu_list, 992, last" class="catalog_item"><a href="#" class="catalog_link">Лонгборд</a></li>
+						<li data-da=".menu_list, 992, last" class="catalog_item"><a href="#" class="catalog_link">Вейкборд</a></li>
+						<li data-da=".menu_list, 992, last" class="catalog_item"><a href="#" class="catalog_link">Серф</a></li>
+						<li data-da=".menu_list, 992, last" class="catalog_item"><a href="#" class="catalog_link">Sup</a></li>
+						<li data-da=".menu_list, 992, last" class="catalog_item"><a href="#" class="catalog_link">Одежда</a></li>
+						<li data-da=".menu_list, 992, last" class="catalog_item"><a href="#" class="catalog_link">Обувь</a></li>
+						<li data-da=".menu_list, 992, last" class="catalog_item"><a href="#" class="catalog_link">Аксессуары</a></li>
+						<li data-da=".menu_list, 992, last" class="catalog_item"><a href="#" class="catalog_link">Бренды</a></li>
+						<li data-da=".menu_list, 992, last" class="catalog_item"><a href="#" class="catalog_link">Распродажа</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+
+		<div class="wrapper">
+			<section class="main_section_page_catalogue">
+				<div class="limited_container_1360">
+					<div class="breadcramps">
+						<a href="#" class="breadcramps_item">Главная</a> / 
+						<a href="#" class="breadcramps_item">Мужчинам</a> / 
+						<a href="#" class="breadcramps_item">Сноуборд</a>
+					</div>
+					<div class="container_actions_page_catalogue">
+						<a href="#" class="action_page_catalogue">
+							<div class="container_image_action_page_catalogue">
+								<img src="images/Rectangle 65.png" class="image_action_page_catalogue" alt="Image"/>
+							</div>
+							<h3 class="title_action_page_catalogue">Название акции</h3>
+						</a>
+						<a href="#" class="action_page_catalogue">
+							<div class="container_image_action_page_catalogue">
+								<img src="images/image_action_3.png" class="image_action_page_catalogue" alt="Image"/>
+							</div>
+							<h3 class="title_action_page_catalogue">Название акции</h3>
+						</a>
+						<a href="#" class="action_page_catalogue">
+							<div class="container_image_action_page_catalogue">
+								<img src="images/Rectangle 58.png" class="image_action_page_catalogue" alt="Image"/>
+							</div>
+							<h3 class="title_action_page_catalogue">Название акции</h3>
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="section_slider_catalogue">
+				<div class="slider_catalogue">
+					<a href="#" class="slider_item_catalogue">
+						<div class="container_image_slider_catalogue">
+							<img src="images/image_snoubord_1.png" class="image_slider_catalogue"/>
+						</div>
+						<h3 class="title_slider_item_catalogue">Сноуборды</h3>
+					</a>
+					<a href="#" class="slider_item_catalogue">
+						<div class="container_image_slider_catalogue">
+							<img src="images/image 60.png" class="image_slider_catalogue"/>
+						</div>
+						<h3 class="title_slider_item_catalogue">Сноуборды</h3>
+					</a>
+					<a href="#" class="slider_item_catalogue">
+						<div class="container_image_slider_catalogue">
+							<img src="images/image 61.png" class="image_slider_catalogue"/>
+						</div>
+						<h3 class="title_slider_item_catalogue">Сноуборды</h3>
+					</a>
+					<a href="#" class="slider_item_catalogue">
+						<div class="container_image_slider_catalogue">
+							<img src="images/image 62.png" class="image_slider_catalogue"/>
+						</div>
+						<h3 class="title_slider_item_catalogue">Сноуборды</h3>
+					</a>
+					<a href="#" class="slider_item_catalogue">
+						<div class="container_image_slider_catalogue">
+							<img src="images/image 63.png" class="image_slider_catalogue"/>
+						</div>
+						<h3 class="title_slider_item_catalogue">Сноуборды</h3>
+					</a>
+					<a href="#" class="slider_item_catalogue">
+						<div class="container_image_slider_catalogue">
+							<img src="images/image 64.png" class="image_slider_catalogue"/>
+						</div>
+						<h3 class="title_slider_item_catalogue">Сноуборды</h3>
+					</a>
+					<a href="#" class="slider_item_catalogue">
+						<div class="container_image_slider_catalogue">
+							<img src="images/image 65.png" class="image_slider_catalogue"/>
+						</div>
+						<h3 class="title_slider_item_catalogue">Сноуборды</h3>
+					</a>
+					<a href="#" class="slider_item_catalogue">
+						<div class="container_image_slider_catalogue">
+							<img src="images/image 66.png" class="image_slider_catalogue"/>
+						</div>
+						<h3 class="title_slider_item_catalogue">Сноуборды</h3>
+					</a>
+					<a href="#" class="slider_item_catalogue">
+						<div class="container_image_slider_catalogue">
+							<img src="images/image 67.png" class="image_slider_catalogue"/>
+						</div>
+						<h3 class="title_slider_item_catalogue">Сноуборды</h3>
+					</a>
+					<a href="#" class="slider_item_catalogue">
+						<div class="container_image_slider_catalogue">
+							<img src="images/image 60.png" class="image_slider_catalogue"/>
+						</div>
+						<h3 class="title_slider_item_catalogue">Сноуборды</h3>
+					</a>
+				</div>
+			</section>
+			<div class="limited_container_1360">
+				<section class="section_main_catalogue">
+					<div class="container_title_section_main_catalogue">
+						<h3 class="title_category_main_catalogue">Сноуборд</h3>
+						<span class="counter_products_category_main_catalogue">358</span>
+					</div>
+						<div class="container_steps">
+							<div class="step_item steps_item_start">
+								<div class="content_steps">
+									<span class="text_step text_step_start">Подбери борд</span>
+								</div>
+								
+								<img src="images/Rectangle 148.png" class="background_step" alt="Image"/>
+							</div>
+							<div class="step_item steps_item">
+								<div class="content_steps">
+									<div class="container_step_number">
+										<span class="humber_step">1</span>
+									</div>
+									<div class="container_title_step">
+										<h3 class="title_step">Укажите свой рост и вес</h3>
+										<div class="container_pharameters_step">
+											<div class="container_pharameter_step">
+												<span class="pharameter_step">Рост: 190 см</span>
+												<ul class="giver_list_paramethers">
+													<li class="giver_list_paramethers_item"><a href="#" class="giver_list_paramethers_link">150см</a></li>
+													<li class="giver_list_paramethers_item"><a href="#" class="giver_list_paramethers_link">160см</a></li>
+													<li class="giver_list_paramethers_item"><a href="#" class="giver_list_paramethers_link">170см</a></li>
+												</ul>
+											</div>
+											<div class="container_pharameter_step">
+												<span class="pharameter_step">Вес: 300кг</span>
+												<ul class="giver_list_paramethers">
+													<li class="giver_list_paramethers_item"><a href="#" class="giver_list_paramethers_link">400кг</a></li>
+													<li class="giver_list_paramethers_item"><a href="#" class="giver_list_paramethers_link">450кг</a></li>
+													<li class="giver_list_paramethers_item"><a href="#" class="giver_list_paramethers_link">500кг</a></li>
+												</ul>
+											</div>
+											
+										</div>
+									</div>
+									<div class="container_image_icon_step">
+										<img src="svgicons/icon_step_humen.svg" class="icon_step" alt="Image"/>
+									</div>
+								</div>
+								
+								<img src="images/Rectangle 149.png" class="background_step" alt="Image"/>
+							</div>
+							<div class="step_item steps_item">
+								<div class="content_steps">
+									<div class="container_step_number">
+										<span class="humber_step">2</span>
+									</div>
+									<div class="container_title_step">
+										<h3 class="title_step">Где планируете катать</h3>
+										<div class="container_pharameters_step">
+											<div class="container_pharameter_step">
+												<span class="pharameter_step">Укажите место</span>
+												<ul class="giver_list_paramethers">
+													<li class="giver_list_paramethers_item"><a href="#" class="giver_list_paramethers_link">Горы</a></li>
+													<li class="giver_list_paramethers_item"><a href="#" class="giver_list_paramethers_link">Моря</a></li>
+													<li class="giver_list_paramethers_item"><a href="#" class="giver_list_paramethers_link">Океаны</a></li>
+												</ul>
+											</div>
+											
+										</div>
+									</div>
+									<div class="container_image_icon_step">
+										<img src="svgicons/icon_step_mountain.svg" class="icon_step" alt="Image"/>
+									</div>
+								</div>
+								
+								
+								<img src="images/Rectangle 150.png" class="background_step" alt="Image"/>
+							</div>
+							<div class="step_item steps_item_close">
+								<div class="content_steps">
+									<div class="container_step_number">
+										<span class="humber_step">3</span>
+									</div>
+									<div class="container_title_step">
+										<h3 class="title_step">Ваш уровень катании</h3>
+										<div class="container_pharameters_step">
+											<div class="container_pharameter_step">
+												<span class="pharameter_step">Укажите ваш уровень</span>
+												<ul class="giver_list_paramethers">
+													<li class="giver_list_paramethers_item"><a href="#" class="giver_list_paramethers_link">Новичок</a></li>
+													<li class="giver_list_paramethers_item"><a href="#" class="giver_list_paramethers_link">Вроде нормально</a></li>
+													<li class="giver_list_paramethers_item"><a href="#" class="giver_list_paramethers_link">PRO</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="container_image_icon_step">
+										<img src="svgicons/icon_step_progress.svg" class="icon_step" alt="Image"/>
+									</div>
+								</div>
+								
+								<img src="images/Rectangle 151.png" class="background_step" alt="Image"/>
+							</div>
+						</div>
+					
+					<div class="container_filtr_control">
+						<div class="container_button_shov_hide_filtr">
+							<div class="button_show_hide_filtr">
+								<span class="text_button_hife_filtr">Скрыть фильтры</span>
+								<span class="text_button_show_filtr">Показать фильтры</span>
+							</div>
+						</div>
+						<div class="container_main_filtr">
+							<p class="text_main_flitr">Сортировать по:</p>
+							<div class="button_main_filtr">
+								<div class="head_button_main_filtr">
+									Новинки
+								</div>
+								<div class="container_bar_button_main_filtr">
+									<div class="container_content_bar_button_main_filtr">
+										<a href="" class="bar_main_filtr_item">Только со скидкой</a>
+										<a href="" class="bar_main_filtr_item">Лучшие товары</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="container_main_catalog">
+						<div data-spollers="1000,max" class="container_filters">
+							<div class="filtr_catalog filtr_category">
+								<h3 tabindex="-1" data-spoller class="title_filtr_catalog title_filtr_category">Категории товаров</h3>
+								<div class="container_filtr_catalog container_filtr_category">
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_category">
+										<div class="checkbox_filtr_catalog checkbox_filtr_category">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_category_input" id="checkbox_filtr_category_input_1"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_category_label" for="checkbox_filtr_category_input_1">Сноуборды</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_category">
+											24
+										</div>
+									</div>
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_category">
+										<div class="checkbox_filtr_catalog checkbox_filtr_category">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_category_input" id="checkbox_filtr_category_input_2"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_category_label" for="checkbox_filtr_category_input_2">Крепления</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_category">
+											48
+										</div>
+									</div>
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_category">
+										<div class="checkbox_filtr_catalog checkbox_filtr_category">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_category_input" id="checkbox_filtr_category_input_3"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_category_label" for="checkbox_filtr_category_input_3">Обувь</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_category">
+											60
+										</div>
+									</div>
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_category">
+										<div class="checkbox_filtr_catalog checkbox_filtr_category">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_category_input" id="checkbox_filtr_category_input_4"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_category_label" for="checkbox_filtr_category_input_4">Наборы</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_category">
+											10
+										</div>
+									</div>
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_category">
+										<div class="checkbox_filtr_catalog checkbox_filtr_category">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_category_input" id="checkbox_filtr_category_input_5"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_category_label" for="checkbox_filtr_category_input_5">Куртки</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_category">
+											81
+										</div>
+									</div>
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_category">
+										<div class="checkbox_filtr_catalog checkbox_filtr_category">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_category_input" id="checkbox_filtr_category_input_6"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_category_label" for="checkbox_filtr_category_input_6">Штаны</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_category">
+											55
+										</div>
+									</div>
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_category">
+										<div class="checkbox_filtr_catalog checkbox_filtr_category">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_category_input" id="checkbox_filtr_category_input_7"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_category_label" for="checkbox_filtr_category_input_7">Шлемы</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_category">
+											13
+										</div>
+									</div>
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_category">
+										<div class="checkbox_filtr_catalog checkbox_filtr_category">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_category_input" id="checkbox_filtr_category_input_8"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_category_label" for="checkbox_filtr_category_input_8">Очки</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_category">
+											81
+										</div>
+									</div>
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_category">
+										<div class="checkbox_filtr_catalog checkbox_filtr_category">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_category_input" id="checkbox_filtr_category_input_9"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_category_label" for="checkbox_filtr_category_input_9">Перчатки</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_category">
+											55
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="filtr_catalog filtr_look">
+								<h3 tabindex="-1" data-spoller class="title_filtr_catalog title_filtr_look">Смотреть</h3>
+								<div class="container_filtr_catalog container_filtr_look">
+									<div class="container_radio_filtr_look">
+										<div class="radio_filtr_look">
+											<input type="radio" name="radio_filtr_look_input_1" class="radio_filtr_look_input" id="radio_filtr_look_input_1"/>
+											<label class="radio_filtr_look_label" for="radio_filtr_look_input_1">Все товары</label>
+										</div>
+										<div class="counter_radio_filtr_look">
+											368
+										</div>
+									</div>
+									<div class="container_radio_filtr_look">
+										<div class="radio_filtr_look">
+											<input type="radio" name="radio_filtr_look_input_1" class="radio_filtr_look_input" id="radio_filtr_look_input_2"/>
+											<label class="radio_filtr_look_label" for="radio_filtr_look_input_2">Только со скидкой</label>
+										</div>
+										<div class="counter_radio_filtr_look">
+											48
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="filtr_catalog filtr_search">
+								<h3 tabindex="-1" data-spoller class="title_filtr_catalog title_filtr_search">Бренд</h3>
+								<div class="container_filtr_catalog">
+									<div class="container_filtr_search">
+										<input type="text" class="filtr_search_input" placeholder="Поиск"/>
+									</div>
+									
+									<div class="container_filtr_breands">
+										<div class="container_checkbox_filtr_catalog container_checkbox_filtr_breand">
+											<div class="checkbox_filtr_catalog checkbox_filtr_breand">
+												<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_breand_input" id="checkbox_filtr_breand_input_1"/>
+												<label class="checkbox_filtr_catalog_label checkbox_filtr_breand_label" for="checkbox_filtr_breand_input_1">DC Shoes</label>
+											</div>
+											<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_breand">
+												24
+											</div>
+										</div>
+										<div class="container_checkbox_filtr_catalog container_checkbox_filtr_breand">
+											<div class="checkbox_filtr_catalog checkbox_filtr_breand">
+												<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_breand_input" id="checkbox_filtr_breand_input_2"/>
+												<label class="checkbox_filtr_catalog_label checkbox_filtr_breand_label" for="checkbox_filtr_breand_input_2">Quicksilver</label>
+											</div>
+											<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_breand">
+												48
+											</div>
+										</div>
+										<div class="container_checkbox_filtr_catalog container_checkbox_filtr_breand">
+											<div class="checkbox_filtr_catalog checkbox_filtr_breand">
+												<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_breand_input" id="checkbox_filtr_breand_input_3"/>
+												<label class="checkbox_filtr_catalog_label checkbox_filtr_breand_label" for="checkbox_filtr_breand_input_3">BoardRiders</label>
+											</div>
+											<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_breand">
+												60
+											</div>
+										</div>
+										<div class="container_checkbox_filtr_catalog container_checkbox_filtr_breand">
+											<div class="checkbox_filtr_catalog checkbox_filtr_breand">
+												<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_breand_input" id="checkbox_filtr_breand_input_4"/>
+												<label class="checkbox_filtr_catalog_label checkbox_filtr_breand_label" for="checkbox_filtr_breand_input_4">Billabong</label>
+											</div>
+											<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_breand">
+												13
+											</div>
+										</div>
+										<div class="container_checkbox_filtr_catalog container_checkbox_filtr_breand">
+											<div class="checkbox_filtr_catalog checkbox_filtr_breand">
+												<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_breand_input" id="checkbox_filtr_breand_input_5"/>
+												<label class="checkbox_filtr_catalog_label checkbox_filtr_breand_label" for="checkbox_filtr_breand_input_5">Quicksilver</label>
+											</div>
+											<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_breand">
+												81
+											</div>
+										</div>
+										<div class="container_checkbox_filtr_catalog container_checkbox_filtr_breand">
+											<div class="checkbox_filtr_catalog checkbox_filtr_breand">
+												<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_breand_input" id="checkbox_filtr_breand_input_6"/>
+												<label class="checkbox_filtr_catalog_label checkbox_filtr_breand_label" for="checkbox_filtr_breand_input_6">The Tree</label>
+											</div>
+											<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_breand">
+												55
+											</div>
+										</div>
+	
+										<div class="container_checkbox_filtr_catalog container_checkbox_filtr_breand">
+											<div class="checkbox_filtr_catalog checkbox_filtr_breand">
+												<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_breand_input" id="checkbox_filtr_breand_input_7"/>
+												<label class="checkbox_filtr_catalog_label checkbox_filtr_breand_label" for="checkbox_filtr_breand_input_7">DC Shoes</label>
+											</div>
+											<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_breand">
+												24
+											</div>
+										</div>
+										<div class="container_checkbox_filtr_catalog container_checkbox_filtr_breand">
+											<div class="checkbox_filtr_catalog checkbox_filtr_breand">
+												<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_breand_input" id="checkbox_filtr_breand_input_8"/>
+												<label class="checkbox_filtr_catalog_label checkbox_filtr_breand_label" for="checkbox_filtr_breand_input_8">Quicksilver</label>
+											</div>
+											<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_breand">
+												48
+											</div>
+										</div>
+										<div class="container_checkbox_filtr_catalog container_checkbox_filtr_breand">
+											<div class="checkbox_filtr_catalog checkbox_filtr_breand">
+												<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_breand_input" id="checkbox_filtr_breand_input_9"/>
+												<label class="checkbox_filtr_catalog_label checkbox_filtr_breand_label" for="checkbox_filtr_breand_input_9">BoardRiders</label>
+											</div>
+											<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_breand">
+												60
+											</div>
+										</div>
+										<div class="container_checkbox_filtr_catalog container_checkbox_filtr_breand">
+											<div class="checkbox_filtr_catalog checkbox_filtr_breand">
+												<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_breand_input" id="checkbox_filtr_breand_input_10"/>
+												<label class="checkbox_filtr_catalog_label checkbox_filtr_breand_label" for="checkbox_filtr_breand_input_10">Billabong</label>
+											</div>
+											<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_breand">
+												13
+											</div>
+										</div>
+										<div class="container_checkbox_filtr_catalog container_checkbox_filtr_breand">
+											<div class="checkbox_filtr_catalog checkbox_filtr_breand">
+												<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_breand_input" id="checkbox_filtr_breand_input_11"/>
+												<label class="checkbox_filtr_catalog_label checkbox_filtr_breand_label" for="checkbox_filtr_breand_input_11">Quicksilver</label>
+											</div>
+											<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_breand">
+												81
+											</div>
+										</div>
+										<div class="container_checkbox_filtr_catalog container_checkbox_filtr_breand">
+											<div class="checkbox_filtr_catalog checkbox_filtr_breand">
+												<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_breand_input" id="checkbox_filtr_breand_input_12"/>
+												<label class="checkbox_filtr_catalog_label checkbox_filtr_breand_label" for="checkbox_filtr_breand_input_12">The Tree</label>
+											</div>
+											<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_breand">
+												55
+											</div>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+
+							<div class="filtr_catalog filtr_size">
+								<h3 tabindex="-1" data-spoller class="title_filtr_catalog title_filtr_size">Размер</h3>
+								<div class="container_filtr_catalog container_filtr_size">
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_size">
+										<div class="checkbox_filtr_catalog checkbox_filtr_size">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_size_input" id="checkbox_filtr_size_input_1"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_size_label" for="checkbox_filtr_size_input_1">One Size</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_size">
+											24
+										</div>
+									</div>
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_size">
+										<div class="checkbox_filtr_catalog checkbox_filtr_size">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_size_input" id="checkbox_filtr_size_input_2"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_size_label" for="checkbox_filtr_size_input_2">XS</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_size">
+											48
+										</div>
+									</div>
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_size">
+										<div class="checkbox_filtr_catalog checkbox_filtr_size">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_size_input" id="checkbox_filtr_size_input_3"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_size_label" for="checkbox_filtr_size_input_3">S</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_size">
+											60
+										</div>
+									</div>
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_size">
+										<div class="checkbox_filtr_catalog checkbox_filtr_size">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_size_input" id="checkbox_filtr_size_input_4"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_size_label" for="checkbox_filtr_size_input_4">S/M</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_size">
+											13
+										</div>
+									</div>
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_size">
+										<div class="checkbox_filtr_catalog checkbox_filtr_size">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_size_input" id="checkbox_filtr_size_input_5"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_size_label" for="checkbox_filtr_size_input_5">M</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_size">
+											81
+										</div>
+									</div>
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_size">
+										<div class="checkbox_filtr_catalog checkbox_filtr_size">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_size_input" id="checkbox_filtr_size_input_6"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_size_label" for="checkbox_filtr_size_input_6">M/L</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_size">
+											55
+										</div>
+									</div>
+
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_size">
+										<div class="checkbox_filtr_catalog checkbox_filtr_size">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_size_input" id="checkbox_filtr_size_input_7"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_size_label" for="checkbox_filtr_size_input_7">One Size</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_size">
+											24
+										</div>
+									</div>
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_size">
+										<div class="checkbox_filtr_catalog checkbox_filtr_size">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_size_input" id="checkbox_filtr_size_input_8"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_size_label" for="checkbox_filtr_size_input_8">XS</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_size">
+											48
+										</div>
+									</div>
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_size">
+										<div class="checkbox_filtr_catalog checkbox_filtr_size">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_size_input" id="checkbox_filtr_size_input_9"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_size_label" for="checkbox_filtr_size_input_9">S</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_size">
+											60
+										</div>
+									</div>
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_size">
+										<div class="checkbox_filtr_catalog checkbox_filtr_size">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_size_input" id="checkbox_filtr_size_input_10"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_size_label" for="checkbox_filtr_size_input_10">S/M</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_size">
+											13
+										</div>
+									</div>
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_size">
+										<div class="checkbox_filtr_catalog checkbox_filtr_size">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_size_input" id="checkbox_filtr_size_input_11"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_size_label" for="checkbox_filtr_size_input_11">M</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_size">
+											81
+										</div>
+									</div>
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_size">
+										<div class="checkbox_filtr_catalog checkbox_filtr_size">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_size_input" id="checkbox_filtr_size_input_12"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_size_label" for="checkbox_filtr_size_input_12">M/L</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_size">
+											55
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="filtr_catalog filtr_price">
+								<h3 tabindex="-1" data-spoller class="title_filtr_catalog title_filtr_price">Цена, ₽</h3>
+								
+									<div class="container">
+										<div class="slider-value">
+											<div id="title-min" class="slider_value_item">5000</div>
+											<div class="price_separator"></div>
+											<div id="title-max" class="slider_value_item">150000</div>
+											<button type="submit" class="button_apply">OK</button>
+										</div>
+										<div class="double-slider">
+											<div class="double-slider_body">
+												<div class="double-slider_track">
+													<div id="slider-range" class="double-slider_range">
+														
+													</div>
+													<div id="dot-left" class="double-slider_dot double-slider_dot-left"></div>
+													<div id="dot-right" class="double-slider_dot double-slider_dot-right"></div>
+												</div>
+												<input id="input-left" min="5000" max="200000" value="5000" type="range" class="double-slider_input" step="1">
+												<input id="input-right" min="5000" max="200000" value="150000" type="range" class="double-slider_input" step="1">
+											</div>
+										</div>
+									</div>
+							</div>
+
+							<div class="filtr_catalog filtr_technology">
+								<h3 tabindex="-1" data-spoller class="title_filtr_catalog title_filtr_technology">Технологии</h3>
+								<div class="container_filtr_catalog container_filtr_technology">
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_technology">
+										<div class="checkbox_filtr_catalog checkbox_filtr_technology">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_technology_input" id="checkbox_filtr_technology_input_1"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_technology_label" for="checkbox_filtr_technology_input_1">BOA</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_technology">
+											24
+										</div>
+									</div>
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_technology">
+										<div class="checkbox_filtr_catalog checkbox_filtr_technology">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_technology_input" id="checkbox_filtr_technology_input_2"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_technology_label" for="checkbox_filtr_technology_input_2">Step On</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_technology">
+											48
+										</div>
+									</div>
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_technology">
+										<div class="checkbox_filtr_catalog checkbox_filtr_technology">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_technology_input" id="checkbox_filtr_technology_input_3"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_technology_label" for="checkbox_filtr_technology_input_3">Est</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_technology">
+											60
+										</div>
+									</div>
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_technology">
+										<div class="checkbox_filtr_catalog checkbox_filtr_technology">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_technology_input" id="checkbox_filtr_technology_input_4"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_technology_label" for="checkbox_filtr_technology_input_4">Magne Traction</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_technology">
+											13
+										</div>
+									</div>
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_technology">
+										<div class="checkbox_filtr_catalog checkbox_filtr_technology">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_technology_input" id="checkbox_filtr_technology_input_5"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_technology_label" for="checkbox_filtr_technology_input_5">The Channel</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_technology">
+											81
+										</div>
+									</div>
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_technology">
+										<div class="checkbox_filtr_catalog checkbox_filtr_technology">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_technology_input" id="checkbox_filtr_technology_input_6"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_technology_label" for="checkbox_filtr_technology_input_6">Recco</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_technology">
+											55
+										</div>
+									</div>
+
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_technology">
+										<div class="checkbox_filtr_catalog checkbox_filtr_technology">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_technology_input" id="checkbox_filtr_technology_input_7"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_technology_label" for="checkbox_filtr_technology_input_7">BOA</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_technology">
+											24
+										</div>
+									</div>
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_technology">
+										<div class="checkbox_filtr_catalog checkbox_filtr_technology">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_technology_input" id="checkbox_filtr_technology_input_8"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_technology_label" for="checkbox_filtr_technology_input_8">Step On</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_technology">
+											48
+										</div>
+									</div>
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_technology">
+										<div class="checkbox_filtr_catalog checkbox_filtr_technology">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_technology_input" id="checkbox_filtr_technology_input_9"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_technology_label" for="checkbox_filtr_technology_input_9">Est</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_technology">
+											60
+										</div>
+									</div>
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_technology">
+										<div class="checkbox_filtr_catalog checkbox_filtr_technology">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_technology_input" id="checkbox_filtr_technology_input_10"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_technology_label" for="checkbox_filtr_technology_input_10">Magne Traction</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_technology">
+											13
+										</div>
+									</div>
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_technology">
+										<div class="checkbox_filtr_catalog checkbox_filtr_technology">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_technology_input" id="checkbox_filtr_technology_input_11"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_technology_label" for="checkbox_filtr_technology_input_11">The Channel</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_technology">
+											81
+										</div>
+									</div>
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_technology">
+										<div class="checkbox_filtr_catalog checkbox_filtr_technology">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_technology_input" id="checkbox_filtr_technology_input_12"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_technology_label" for="checkbox_filtr_technology_input_12">Recco</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_technology">
+											55
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="filtr_catalog filtr_color">
+								<h3 tabindex="-1" data-spoller class="title_filtr_catalog title_filtr_color">Цвет</h3>
+								<div class="container_filtr_catalog container_filtr_color">
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_color">
+										<div class="checkbox_filtr_catalog checkbox_filtr_color">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_color_input" id="checkbox_filtr_color_input_1"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_color_label" for="checkbox_filtr_color_input_1">
+												<span class="example_color" style="background-color: #000; border: 1px solid #000;"></span>
+												<span>Черный</span>
+											</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_color">
+											24
+										</div>
+									</div>
+
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_color">
+										<div class="checkbox_filtr_catalog checkbox_filtr_color">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_color_input" id="checkbox_filtr_color_input_2"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_color_label" for="checkbox_filtr_color_input_2">
+												<span class="example_color" style="background-color: #FFF; border: 1px solid #000;"></span>
+												<span>Белый</span>
+											</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_color">
+											48
+										</div>
+									</div>
+
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_color">
+										<div class="checkbox_filtr_catalog checkbox_filtr_color">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_color_input" id="checkbox_filtr_color_input_3"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_color_label" for="checkbox_filtr_color_input_3">
+												<span class="example_color" style="background-color: #EB5757; border: 1px solid #EB5757;"></span>
+												<span>Красный</span>
+											</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_color">
+											60
+										</div>
+									</div>
+
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_color">
+										<div class="checkbox_filtr_catalog checkbox_filtr_color">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_color_input" id="checkbox_filtr_color_input_4"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_color_label" for="checkbox_filtr_color_input_4">
+												<span class="example_color" style="background-color: #2D9CDB; border: 1px solid #2D9CDB;"></span>
+												<span>Синий</span>
+											</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_color">
+											13
+										</div>
+									</div>
+
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_color">
+										<div class="checkbox_filtr_catalog checkbox_filtr_color">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_color_input" id="checkbox_filtr_color_input_5"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_color_label" for="checkbox_filtr_color_input_5">
+												<span class="example_color" style="background-color: #F2C94C; border: 1px solid #F2C94C;"></span>
+												<span>Желтый</span>
+											</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_color">
+											81
+										</div>
+									</div>
+
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_color">
+										<div class="checkbox_filtr_catalog checkbox_filtr_color">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_color_input" id="checkbox_filtr_color_input_6"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_color_label" for="checkbox_filtr_color_input_6">
+												<span class="example_color" style="background-color: #F2994A; border: 1px solid #F2994A;"></span>
+												<span>Оранжевый</span>
+											</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_color">
+											55
+										</div>
+									</div>
+
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_color">
+										<div class="checkbox_filtr_catalog checkbox_filtr_color">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_color_input" id="checkbox_filtr_color_input_7"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_color_label" for="checkbox_filtr_color_input_7">
+												<span class="example_color" style="background-color: #000; border: 1px solid #000;"></span>
+												<span>Черный</span>
+											</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_color">
+											24
+										</div>
+									</div>
+
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_color">
+										<div class="checkbox_filtr_catalog checkbox_filtr_color">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_color_input" id="checkbox_filtr_color_input_8"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_color_label" for="checkbox_filtr_color_input_8">
+												<span class="example_color" style="background-color: #FFF; border: 1px solid #000;"></span>
+												<span>Белый</span>
+											</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_color">
+											48
+										</div>
+									</div>
+
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_color">
+										<div class="checkbox_filtr_catalog checkbox_filtr_color">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_color_input" id="checkbox_filtr_color_input_9"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_color_label" for="checkbox_filtr_color_input_9">
+												<span class="example_color" style="background-color: #EB5757; border: 1px solid #EB5757;"></span>
+												<span>Красный</span>
+											</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_color">
+											60
+										</div>
+									</div>
+
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_color">
+										<div class="checkbox_filtr_catalog checkbox_filtr_color">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_color_input" id="checkbox_filtr_color_input_10"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_color_label" for="checkbox_filtr_color_input_10">
+												<span class="example_color" style="background-color: #2D9CDB; border: 1px solid #2D9CDB;"></span>
+												<span>Синий</span>
+											</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_color">
+											13
+										</div>
+									</div>
+
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_color">
+										<div class="checkbox_filtr_catalog checkbox_filtr_color">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_color_input" id="checkbox_filtr_color_input_11"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_color_label" for="checkbox_filtr_color_input_11">
+												<span class="example_color" style="background-color: #F2C94C; border: 1px solid #F2C94C;"></span>
+												<span>Желтый</span>
+											</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_color">
+											81
+										</div>
+									</div>
+
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_color">
+										<div class="checkbox_filtr_catalog checkbox_filtr_color">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_color_input" id="checkbox_filtr_color_input_12"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_color_label" for="checkbox_filtr_color_input_12">
+												<span class="example_color" style="background-color: #F2994A; border: 1px solid #F2994A;"></span>
+												<span>Оранжевый</span>
+											</label>
+										</div>
+										<div class="counter_checkbox_filtr_catalog counter_checkbox_filtr_color">
+											55
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="filtr_catalog filtr_location">
+								<h3 tabindex="-1" data-spoller class="title_filtr_catalog title_filtr_location">Забрать сейчас: Москва</h3>
+								<div class="container_filtr_catalog container_filtr_location">
+									<div class="container_checkbox_filtr_catalog container_checkbox_filtr_location">
+										<div class="checkbox_filtr_catalog checkbox_filtr_location">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_location_input" id="checkbox_filtr_location_input_1"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_location_label" for="checkbox_filtr_location_input_1">
+												<span class="title_ceckbox_label_shop">Название магазина</span>
+												<span class="title_ceckbox_label_address">ул. Энтузиастов 45. Метро Бабушкинская</span>
+											</label>
+										</div>
+
+										<div class="checkbox_filtr_catalog checkbox_filtr_location">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_location_input" id="checkbox_filtr_location_input_2"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_location_label" for="checkbox_filtr_location_input_2">
+												<span class="title_ceckbox_label_shop">Название магазина</span>
+												<span class="title_ceckbox_label_address">ул. Энтузиастов 45. Метро Бабушкинская</span>
+											</label>
+										</div>
+
+										<div class="checkbox_filtr_catalog checkbox_filtr_location">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_location_input" id="checkbox_filtr_location_input_3"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_location_label" for="checkbox_filtr_location_input_3">
+												<span class="title_ceckbox_label_shop">Название магазина</span>
+												<span class="title_ceckbox_label_address">ул. Энтузиастов 45. Метро Бабушкинская</span>
+											</label>
+										</div>
+
+										<div class="checkbox_filtr_catalog checkbox_filtr_location">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_location_input" id="checkbox_filtr_location_input_4"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_location_label" for="checkbox_filtr_location_input_4">
+												<span class="title_ceckbox_label_shop">Название магазина</span>
+												<span class="title_ceckbox_label_address">ул. Энтузиастов 45. Метро Бабушкинская</span>
+											</label>
+										</div>
+
+										<div class="checkbox_filtr_catalog checkbox_filtr_location">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_location_input" id="checkbox_filtr_location_input_5"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_location_label" for="checkbox_filtr_location_input_5">
+												<span class="title_ceckbox_label_shop">Название магазина</span>
+												<span class="title_ceckbox_label_address">ул. Энтузиастов 45. Метро Бабушкинская</span>
+											</label>
+										</div>
+
+										<div class="checkbox_filtr_catalog checkbox_filtr_location">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_location_input" id="checkbox_filtr_location_input_6"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_location_label" for="checkbox_filtr_location_input_6">
+												<span class="title_ceckbox_label_shop">Название магазина</span>
+												<span class="title_ceckbox_label_address">ул. Энтузиастов 45. Метро Бабушкинская</span>
+											</label>
+										</div>
+
+										<div class="checkbox_filtr_catalog checkbox_filtr_location">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_location_input" id="checkbox_filtr_location_input_7"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_location_label" for="checkbox_filtr_location_input_7">
+												<span class="title_ceckbox_label_shop">Название магазина</span>
+												<span class="title_ceckbox_label_address">ул. Энтузиастов 45. Метро Бабушкинская</span>
+											</label>
+										</div>
+
+										<div class="checkbox_filtr_catalog checkbox_filtr_location">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_location_input" id="checkbox_filtr_location_input_8"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_location_label" for="checkbox_filtr_location_input_8">
+												<span class="title_ceckbox_label_shop">Название магазина</span>
+												<span class="title_ceckbox_label_address">ул. Энтузиастов 45. Метро Бабушкинская</span>
+											</label>
+										</div>
+
+										<div class="checkbox_filtr_catalog checkbox_filtr_location">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_location_input" id="checkbox_filtr_location_input_9"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_location_label" for="checkbox_filtr_location_input_9">
+												<span class="title_ceckbox_label_shop">Название магазина</span>
+												<span class="title_ceckbox_label_address">ул. Энтузиастов 45. Метро Бабушкинская</span>
+											</label>
+										</div>
+
+										<div class="checkbox_filtr_catalog checkbox_filtr_location">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_location_input" id="checkbox_filtr_location_input_10"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_location_label" for="checkbox_filtr_location_input_10">
+												<span class="title_ceckbox_label_shop">Название магазина</span>
+												<span class="title_ceckbox_label_address">ул. Энтузиастов 45. Метро Бабушкинская</span>
+											</label>
+										</div>
+
+										<div class="checkbox_filtr_catalog checkbox_filtr_location">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_location_input" id="checkbox_filtr_location_input_11"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_location_label" for="checkbox_filtr_location_input_11">
+												<span class="title_ceckbox_label_shop">Название магазина</span>
+												<span class="title_ceckbox_label_address">ул. Энтузиастов 45. Метро Бабушкинская</span>
+											</label>
+										</div>
+
+										<div class="checkbox_filtr_catalog checkbox_filtr_location">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_location_input" id="checkbox_filtr_location_input_12"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_location_label" for="checkbox_filtr_location_input_12">
+												<span class="title_ceckbox_label_shop">Название магазина</span>
+												<span class="title_ceckbox_label_address">ул. Энтузиастов 45. Метро Бабушкинская</span>
+											</label>
+										</div>
+
+										<div class="checkbox_filtr_catalog checkbox_filtr_location">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_location_input" id="checkbox_filtr_location_input_13"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_location_label" for="checkbox_filtr_location_input_13">
+												<span class="title_ceckbox_label_shop">Название магазина</span>
+												<span class="title_ceckbox_label_address">ул. Энтузиастов 45. Метро Бабушкинская</span>
+											</label>
+										</div>
+
+										<div class="checkbox_filtr_catalog checkbox_filtr_location">
+											<input type="checkbox" class="checkbox_filtr_catalog_input checkbox_filtr_location_input" id="checkbox_filtr_location_input_14"/>
+											<label class="checkbox_filtr_catalog_label checkbox_filtr_location_label" for="checkbox_filtr_location_input_14">
+												<span class="title_ceckbox_label_shop">Название магазина</span>
+												<span class="title_ceckbox_label_address">ул. Энтузиастов 45. Метро Бабушкинская</span>
+											</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="container_catalog_products">
+							<div class="container_products">
+								<div class="item_card_product">
+									<a href="#" class="container_prewiew_product">
+										<div class="container_image_produst">
+											<img src="images/image_snoubord_1.png" class="image_product"/>
+										</div>
+										<div class="container_icon_product">
+											<i class="icon_product fa fa-star-o" aria-hidden="true"></i>
+										</div>
+									</a>
+									<div>
+										<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+										<h3 class="text_product">Мужской Сноуборд</h3>
+										<div class="price_container">
+											<span class="price_product">34392 ₽</span>
+										</div>
+										
+									</div>
+								</div>
+								<div class="item_card_product">
+									<a href="#" class="container_prewiew_product">
+										<div class="container_image_produst">
+											<img src="images/image_snoubord_2.png" class="image_product"/>
+										</div>
+										<div class="container_icon_product">
+											<i class="icon_product fa fa-star-o" aria-hidden="true"></i>
+										</div>
+										<div class="container_sale_product">
+											<span class="sale_percent_product">-50%</span>
+										</div>
+									</a>
+									<div>
+										<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+										<h3 class="text_product">Мужской Сноуборд</h3>
+										<div class="price_container">
+											<span class="price_product price_old">34392 ₽</span>
+											<span class="price_sale_product">17392 ₽</span>
+										</div>
+										
+									</div>
+								</div>
+								<div class="item_card_product">
+									<a href="#" class="container_prewiew_product">
+										<div class="container_image_produst">
+											<img src="images/image_snoubord_2.png" class="image_product"/>
+										</div>
+										<div class="container_icon_product active">
+											<i class="icon_product fa fa-star" aria-hidden="true"></i>
+										</div>
+										<div class="container_sale_product container_site_product">
+											<span class="sale_percent_product site_product_text">Только на сайте</span>
+										</div>
+									</a>
+									<div>
+										<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+										<h3 class="text_product">Мужской Сноуборд</h3>
+										<div class="price_container">
+											<span class="price_product">34392 ₽</span>
+										</div>
+										
+									</div>
+								</div>
+	
+								<div class="item_card_product">
+									<a href="#" class="container_prewiew_product">
+										<div class="container_image_produst">
+											<img src="images/image_snoubord_2.png" class="image_product"/>
+										</div>
+										<div class="container_icon_product">
+											<i class="icon_product fa fa-star-o" aria-hidden="true"></i>
+										</div>
+										<div class="container_sale_product">
+											<span class="sale_percent_product">-50%</span>
+										</div>
+									</a>
+									<div>
+										<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+										<h3 class="text_product">Мужской Сноуборд</h3>
+										<div class="price_container">
+											<span class="price_product price_old">34392 ₽</span>
+											<span class="price_sale_product">17392 ₽</span>
+										</div>
+										
+									</div>
+								</div>
+								<div class="card_action_catalog">
+									<div class="container_image_card_action_catalog">
+										<img src="images/Rectangle 440.png" class="image_card_action_catalog"/>
+									</div>
+									<div class="content_card_action_catalog">
+										<span>Смотреть зимний лукбук от DC Shoes <span class="container_icons_content_card_action_catalog"><i class="icon_content_card_action_catalog fa fa-chevron-right" aria-hidden="true"></i><i class="icon_content_card_action_catalog fa fa-chevron-right" aria-hidden="true"></i></span></span>
+									</div>
+								</div>
+	
+								<div class="item_card_product">
+									<a href="#" class="container_prewiew_product">
+										<div class="container_image_produst">
+											<img src="images/image_snoubord_1.png" class="image_product"/>
+										</div>
+										<div class="container_icon_product">
+											<i class="icon_product fa fa-star-o" aria-hidden="true"></i>
+										</div>
+									</a>
+									<div>
+										<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+										<h3 class="text_product">Мужской Сноуборд</h3>
+										<div class="price_container">
+											<span class="price_product">34392 ₽</span>
+										</div>
+										
+									</div>
+								</div>
+								<div class="item_card_product">
+									<a href="#" class="container_prewiew_product">
+										<div class="container_image_produst">
+											<img src="images/image_snoubord_2.png" class="image_product"/>
+										</div>
+										<div class="container_icon_product">
+											<i class="icon_product fa fa-star-o" aria-hidden="true"></i>
+										</div>
+										<div class="container_sale_product">
+											<span class="sale_percent_product">-50%</span>
+										</div>
+									</a>
+									<div>
+										<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+										<h3 class="text_product">Мужской Сноуборд</h3>
+										<div class="price_container">
+											<span class="price_product price_old">34392 ₽</span>
+											<span class="price_sale_product">17392 ₽</span>
+										</div>
+										
+									</div>
+								</div>
+								<div class="item_card_product">
+									<a href="#" class="container_prewiew_product">
+										<div class="container_image_produst">
+											<img src="images/image_snoubord_3.png" class="image_product"/>
+										</div>
+										<div class="container_icon_product active">
+											<i class="icon_product fa fa-star" aria-hidden="true"></i>
+										</div>
+									</a>
+									<div>
+										<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+										<h3 class="text_product">Мужской Сноуборд</h3>
+										<div class="price_container">
+											<span class="price_product">34392 ₽</span>
+										</div>
+									</div>
+								</div>
+	
+								<div class="item_card_product">
+									<a href="#" class="container_prewiew_product">
+										<div class="container_image_produst">
+											<img src="images/image_snoubord_1.png" class="image_product"/>
+										</div>
+										<div class="container_icon_product">
+											<i class="icon_product fa fa-star-o" aria-hidden="true"></i>
+										</div>
+									</a>
+									<div>
+										<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+										<h3 class="text_product">Мужской Сноуборд</h3>
+										<div class="price_container">
+											<span class="price_product">34392 ₽</span>
+										</div>
+										
+									</div>
+								</div>
+								<div class="item_card_product">
+									<a href="#" class="container_prewiew_product">
+										<div class="container_image_produst">
+											<img src="images/image_snoubord_2.png" class="image_product"/>
+										</div>
+										<div class="container_icon_product">
+											<i class="icon_product fa fa-star-o" aria-hidden="true"></i>
+										</div>
+										<div class="container_sale_product">
+											<span class="sale_percent_product">-50%</span>
+										</div>
+									</a>
+									<div>
+										<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+										<h3 class="text_product">Мужской Сноуборд</h3>
+										<div class="price_container">
+											<span class="price_product price_old">34392 ₽</span>
+											<span class="price_sale_product">17392 ₽</span>
+										</div>
+										
+									</div>
+								</div>
+								<div class="item_card_product">
+									<a href="#" class="container_prewiew_product">
+										<div class="container_image_produst">
+											<img src="images/image_snoubord_1.png" class="image_product"/>
+										</div>
+										<div class="container_icon_product">
+											<i class="icon_product fa fa-star-o" aria-hidden="true"></i>
+										</div>
+									</a>
+									<div>
+										<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+										<h3 class="text_product">Мужской Сноуборд</h3>
+										<div class="price_container">
+											<span class="price_product">34392 ₽</span>
+										</div>
+										
+									</div>
+								</div>
+	
+								<div class="item_card_product">
+									<a href="#" class="container_prewiew_product">
+										<div class="container_image_produst">
+											<img src="images/image_snoubord_1.png" class="image_product"/>
+										</div>
+										<div class="container_icon_product active">
+											<i class="icon_product fa fa-star" aria-hidden="true"></i>
+										</div>
+									</a>
+									<div>
+										<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+										<h3 class="text_product">Мужской Сноуборд</h3>
+										<div class="price_container">
+											<span class="price_product">34392 ₽</span>
+										</div>
+										
+									</div>
+								</div>
+								<div class="item_card_product">
+									<a href="#" class="container_prewiew_product">
+										<div class="container_image_produst">
+											<img src="images/image_snoubord_2.png" class="image_product"/>
+										</div>
+										<div class="container_icon_product">
+											<i class="icon_product fa fa-star-o" aria-hidden="true"></i>
+										</div>
+										<div class="container_sale_product">
+											<span class="sale_percent_product">-50%</span>
+										</div>
+									</a>
+									<div>
+										<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+										<h3 class="text_product">Мужской Сноуборд</h3>
+										<div class="price_container">
+											<span class="price_product price_old">34392 ₽</span>
+											<span class="price_sale_product">17392 ₽</span>
+										</div>
+										
+									</div>
+								</div>
+								<div class="item_card_product">
+									<a href="#" class="container_prewiew_product">
+										<div class="container_image_produst">
+											<img src="images/image_snoubord_3.png" class="image_product"/>
+										</div>
+										<div class="container_icon_product">
+											<i class="icon_product fa fa-star-o" aria-hidden="true"></i>
+										</div>
+									</a>
+									<div>
+										<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+										<h3 class="text_product">Мужской Сноуборд</h3>
+										<div class="price_container">
+											<span class="price_product">34392 ₽</span>
+										</div>
+										
+									</div>
+								</div>
+	
+								<div class="card_action_catalog">
+									<div class="container_image_card_action_catalog">
+										<div class="container_breand_card_action_catalog">
+											<img src="images/image_breand_action_1.png" class="image_breand_card_action_catalog"/>
+											<h1 class="title_breand_card_action_catalog">DC SHOES</h1>
+										</div>
+										<img src="images/Rectangle 441.png" class="image_card_action_catalog"/>
+									</div>
+									<div class="content_card_action_catalog">
+										<span>Смотреть зимний лукбук от DC Shoes <span class="container_icons_content_card_action_catalog"><i class="icon_content_card_action_catalog fa fa-chevron-right" aria-hidden="true"></i><i class="icon_content_card_action_catalog fa fa-chevron-right" aria-hidden="true"></i></span></span>
+									</div>
+								</div>
+								<div class="item_card_product">
+									<a href="#" class="container_prewiew_product">
+										<div class="container_image_produst">
+											<img src="images/image_snoubord_3.png" class="image_product"/>
+										</div>
+										<div class="container_icon_product active">
+											<i class="icon_product fa fa-star" aria-hidden="true"></i>
+										</div>
+									</a>
+									<div>
+										<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+										<h3 class="text_product">Мужской Сноуборд</h3>
+										<div class="price_container">
+											<span class="price_product">34392 ₽</span>
+										</div>
+									</div>
+								</div>
+	
+								<div class="item_card_product">
+									<a href="#" class="container_prewiew_product">
+										<div class="container_image_produst">
+											<img src="images/image_snoubord_1.png" class="image_product"/>
+										</div>
+										<div class="container_icon_product active">
+											<i class="icon_product fa fa-star" aria-hidden="true"></i>
+										</div>
+									</a>
+									<div>
+										<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+										<h3 class="text_product">Мужской Сноуборд</h3>
+										<div class="price_container">
+											<span class="price_product">34392 ₽</span>
+										</div>
+										
+									</div>
+								</div>
+								<div class="item_card_product">
+									<a href="#" class="container_prewiew_product">
+										<div class="container_image_produst">
+											<img src="images/image_snoubord_2.png" class="image_product"/>
+										</div>
+										<div class="container_icon_product">
+											<i class="icon_product fa fa-star-o" aria-hidden="true"></i>
+										</div>
+										<div class="container_sale_product">
+											<span class="sale_percent_product">-50%</span>
+										</div>
+									</a>
+									<div>
+										<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+										<h3 class="text_product">Мужской Сноуборд</h3>
+										<div class="price_container">
+											<span class="price_product price_old">34392 ₽</span>
+											<span class="price_sale_product">17392 ₽</span>
+										</div>
+										
+									</div>
+								</div>
+								<div class="item_card_product">
+									<a href="#" class="container_prewiew_product">
+										<div class="container_image_produst">
+											<img src="images/image_snoubord_3.png" class="image_product"/>
+										</div>
+										<div class="container_icon_product">
+											<i class="icon_product fa fa-star-o" aria-hidden="true"></i>
+										</div>
+									</a>
+									<div>
+										<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+										<h3 class="text_product">Мужской Сноуборд</h3>
+										<div class="price_container">
+											<span class="price_product">34392 ₽</span>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+							<div class="main_container_page_pagination">
+								<div class="container_page_pagination">
+									<div class="page_pagination">
+										<a href="#" class="btn_pagination btn_pagination_prev"><i class="pagination_icon pagination_icon_prev icon-arrow-bottom"></i></a>
+										<ul class="page_pagination_list">
+											<li class="page_pagination_list_item"><a href="#" class="page_pagination_link active">1</a></li>
+											<li class="page_pagination_list_item"><a href="#" class="page_pagination_link">2</a></li>
+											<li class="page_pagination_list_item"><a href="#" class="page_pagination_link">3</a></li>
+											<li class="page_pagination_list_item"><a href="#" class="page_pagination_link">4</a></li>
+											<li class="page_pagination_list_item"><span class="page_pagination_dots"></span>...</li>
+											<li class="page_pagination_list_item"><span class="page_pagination_number_of_pages">659</span></li>
+										</ul>
+										<a class="btn_pagination btn_pagination_next"><i class="pagination_icon pagination_icon_next icon-arrow-bottom"></i></a>
+									</div>
+									<a href="#" class="btn_show_more">Показать больше</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="footer_container">
+				<div class="footer_container_top">
+					<div class="container_logo_footer">
+						<img src="images/logo_footer.png" class="logo_footer"/>
+					</div>
+					<form class="form_input_email_footer">
+						<input placeholder="Подпишись на рассылку и получи  -10%  скидку" type="text" class="input_email_footer"/>
+						<i class="icon_input_email_footer icon-email"></i>
+						<button type="submit" class="btn_send_email_footer icon-email-dispatch"></button>
+					</form>
+				</div>
+				<div class="footer_container_body">
+					<div class="container_accesses_and_contacts_footer">
+						<div class="container_accesses_footer">
+							<h3 class="title_accesses_footer">Доступ к ранним релизам в приложении </h3>
+							<div class="sub_container_accesses_footer">
+								<div class="container_apple_store_and_google_play">
+									<a href="#" class="container_apple_store">
+										<img src="images/image_apple_store.png" class="image_apple_store"/>
+									</a>
+									<a href="#" class="container_google_play">
+										<img src="images/image_google_play.png" class="image_google_play"/>
+									</a>
+								</div>
+								<div class="container_qrcode_footer">
+									<img src="images/QR_Code.png" class="qrcode_footer"/>
+								</div>
+							</div>
+						</div>
+						<div class="container_contacts_footer">
+							<h3 class="title_contacts_footer">Контакты</h3>
+							<div class="container_phone_contact_footer container_contact_footer">
+								<div class="container_icon_phone_contact_footer container_icon_contact_footer">
+									<i class="icon_phone_contact_footer icon_contact_footer icon-footer-phone"></i>
+								</div>
+								<div class="container_content_phone_contact_footer container_content_contact_footer">
+									<a href="tel:8 (800) 511-74-68" class="phone_contact_footer contact_footer">8 (800) 511-74-68 </a>
+									<span class="text_phone_contact_footer text_contact_footer">Бесплатная горячая линия
+										Ежедневно с 9 до 21</span>
+								</div>
+							</div>
+							<div class="container_email_contact_footer container_contact_footer">
+								<div class="container_icon_email_contact_footer container_icon_contact_footer">
+									<i class="icon_email_contact_footer icon_contact_footer icon-email"></i>
+								</div>
+								<div class="container_content_email_contact_footer container_content_contact_footer">
+									<span class="email_contact_footer contact_footer">Контактный Email</span>
+									<a href="#" class="text_email_contact_footer text_contact_footer">info@brd.ru</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="container_list_site">
+						<h3 class="title_list_site">Помощь</h3>
+						<ul class="list_site">
+							<li class="list_site_item"><a href="#" class="list_site_link">Доставка</a></li>
+							<li class="list_site_item"><a href="#" class="list_site_link">Оплата</a></li>
+							<li class="list_site_item"><a href="#" class="list_site_link">Возврат</a></li>
+							<li class="list_site_item"><a href="#" class="list_site_link">Отзывы (2290)</a></li>
+							<li class="list_site_item"><a href="#" class="list_site_link">Акции и скидки</a></li>
+						</ul>
+					</div>
+					<div class="container_list_site">
+						<h3 class="title_list_site">Компания</h3>
+						<ul class="list_site">
+							<li class="list_site_item"><a href="#" class="list_site_link">Контакты</a></li>
+							<li class="list_site_item"><a href="#" class="list_site_link">О boardriders</a></li>
+							<li class="list_site_item"><a href="#" class="list_site_link">Вакансии</a></li>
+							<li class="list_site_item"><a href="#" class="list_site_link">Публичная оферта</a></li>
+						</ul>
+					</div>
+					<div class="container_list_site">
+						<h3 class="title_list_site">Boardriders Inc.</h3>
+						<ul class="list_site">
+							<li class="list_site_item"><a href="#" class="list_site_link">Франчайзинг</a></li>
+							<li class="list_site_item"><a href="#" class="list_site_link">Quiksilver</a></li>
+							<li class="list_site_item"><a href="#" class="list_site_link">Roxy</a></li>
+							<li class="list_site_item"><a href="#" class="list_site_link">DC Shoes</a></li>
+							<li class="list_site_item"><a href="#" class="list_site_link">Boardriders Club</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer_container_bottom">
+					<div class="container_social_links_footer">
+						<a href="#" class="social_link_footer"><i class="icon_social_link_footer fa fa-twitter" aria-hidden="true"></i></a>
+						<a href="#" class="social_link_footer"><i class="icon_social_link_footer fa fa-facebook-official" aria-hidden="true"></i></a>
+						<a href="#" class="social_link_footer"><i class="icon_social_link_footer fa fa-twitch" aria-hidden="true"></i></a>
+						<a href="#" class="social_link_footer"><i class="icon_social_link_footer fa fa-youtube-play" aria-hidden="true"></i></a>
+						<a href="#" class="social_link_footer"><i class="icon_social_link_footer fa fa-instagram" aria-hidden="true"></i></a>
+					</div>
+					<div class="container_sub_text_footer">
+						<p class="sub_text_footers">© 2020 Brd.ru. Все права защищены</p>
+					</div>
+				</div>
+			</div>
+			<div class="container_background_footer">
+				<img src="images/image_background_footer.png" class="image_background_footer"/>
+			</div>
+		</footer>
+
+		<div id="search" class="popup">
+			<div class="popup_body">
+				<div class="popup_content popup_content_search">
+					<a href="#" class="popup_close popup_close_search close-popup"><img src="images/Vector.png" class="icon_image_close_popup"/></a>
+					<div class="popup_search">
+						<h1 class="popup_search_title">Поиск</h1>
+						<input type="text" placeholder="search" class="input_search"/>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="registration" class="popup">
+			<div class="popup_body">
+				<div class="popup_content popup_content_registration">
+					<a href="#" class="popup_close popup_close_registration close-popup"><img src="images/Vector.png" class="icon_image_close_popup"/></a>
+					<div class="popup_registration">
+						<h4 class="popup_registration_title">Чтобы воспользоваться быстрым бронированием выполните<br/>вход или зарегистрируйтесь на сайте</h4>
+						<div class="container_intrance_and_registration">
+							<form class="container_intrance">
+								<span class="text_intrance text_popup_registration">Вход</span>
+								<div class="container_input_intrance_email_or_phone container_input_popup_registration">
+									<span class="text_input_intrance_email_or_phone text_input_popup_registration">Номер телефона или email</span>
+									<input type="text" class="input_intrance_email_or_phone input_popup_registration"/>
+								</div>
+								<div class="container_input_intrance_password container_input_popup_registration">
+									<span class="text_input_intrance_password text_input_popup_registration">Пароль</span>
+									<input type="password" class="input_intrance_password input_popup_registration"/>
+								</div>
+								<div class="container_checkbox container_checkbox_intrance">
+									<div class="checkbox">
+										<input type="checkbox" class="checkbox_input checkbox_intrance_input" id="checkbox_intrance"/>
+										<label class="checkbox_label" for="checkbox_intrance">Запомнить меня</label>
+									</div>
+									
+									<a href="#" class="text_forgot_me">Забыли пароль?</a>
+								</div>
+								<button type="submit" class="btn_intrance btn_popup_registration">Войти</button>
+							</form>
+							<form class="container_registration">
+								<span class="text_regisration text_popup_registration">Регистрация</span>
+								<div class="container_input_registration_name container_input_popup_registration">
+									<span class="text_input_registration_name text_input_popup_registration">Имя*</span>
+									<input type="text" class="input_registration_name input_popup_registration"/>
+								</div>
+								<div class="container_input_registration_email container_input_popup_registration">
+									<span class="text_input_registration_email text_input_popup_registration">Еmail*</span>
+									<input type="text" class="input_registration_email input_popup_registration"/>
+								</div>
+								<div class="container_input_registration_phone container_input_popup_registration">
+									<span class="text_input_registration_phone text_input_popup_registration">Номер телефона*</span>
+									<input type="text" class="input_registration_phone input_popup_registration"/>
+								</div>
+								<div class="container_checkbox container_checkbox_registration">
+									<div class="checkbox">
+										<input type="checkbox" class="checkbox_input checkbox_registration_input" id="checkbox_registration"/>
+										<label class="checkbox_label" for="checkbox_registration">Вы соглашаетесь с правилами</label>
+									</div>
+								</div>
+								<button type="submit" class="btn_registration btn_popup_registration">Зарегистрироваться</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--Подключаем jQuery.-->
+		<script src="js/jquery-3.6.0.min.js"></script>
+
+		<!--Подключаем слайдер Slick.-->
+		<script src="js/slick.min.js"></script>
+		
+		<!-- Подключаем jQuery ui -->
+		<!-- <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+		<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script> -->
+		
+		<!-- Подключаем адаптивный сайтбар -->
+		<!--<script src="js/slideout.min.js"></script>
+		<script src="js/slideout-script.js"></script>-->
+		
+		<!--Подключаем скрипт jQuery ui -->
+		<!--
+		<script>
+		  $( function() {
+			$( "#accordion" ).accordion();
+		  } );
+		</script>
+		-->
+		<!--Подключаем анимации wow.js-->
+		<script src="js/wow.min.js"></script>
+        <script src="js/wow.js"></script>
+
+		<!--Подключаем файл скриптов.-->
+		<script src="js/script.js"></script>
+	</body>
+</html>

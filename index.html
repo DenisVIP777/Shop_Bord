@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/slider.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+		<link rel="stylesheet" href="https://jqueryui.com//resources/demos/style.css">
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header_top">
+				<div class="header_top_container">
+					<div class="header_menu menu">
+						<div class="menu_icon">
+							<span></span>
+						</div>
+						<nav class="menu_body">
+							<ul class="menu_list">
+								<li class="menu_item_location">
+									<a class="menu_link menu_link_location"><i class="icon-location"></i><span class="text_location">Ваш регион доставки:</span><span class="location">Москва</span></a>
+									<span class="menu_arrow icon-arrow-bottom"></span>
+									<ul class="menu_sub-list">
+										<li>
+											<a href="" class="menu_sub-link">Санкт петербург</a>
+										</li>
+										<li>
+											<a href="" class="menu_sub-link">Иваха</a>
+										</li>
+										<li>
+											<a href="" class="menu_sub-link">Калининград</a>
+										</li>
+									</ul>
+								</li>
+								<li><a href="#" class="menu_link">Магазины</a></li>
+								<li><a href="#" class="menu_link">Помощь</a></li>
+								<li><a href="#" class="menu_link">Блоги</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="block_benefit">
+						<div class="block_benefit_item">
+							<i class="icon_benefit icon-delivery"></i>
+							<p class="text_benefit">Бесплатная доставка *</p>
+						</div>
+						<div class="block_benefit_item">
+							<i class="icon_benefit icon-payment-location"></i>
+							<p class="text_benefit">Оплата при получении</p>
+						</div>
+						<div class="block_benefit_item">
+							<i class="icon_benefit icon-return"></i>
+							<p class="text_benefit">Возврат в течение 14 дней</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header_body">
+				<div class="header_body_container">
+					<div class="header_body_category">
+						<a href="#" class="header_body_category_item active">Мужчинам</a>
+						<a href="#" class="header_body_category_item">Женщинам</a>
+						<a href="#" class="header_body_category_item">Детям</a>
+					</div>
+					<div class="header_body_logo">
+						<img src="images/image_logo_header.png" class="header_logo"/>
+					</div>
+					<div class="header_body_use_items">
+						<a href="#registration" class="header_body_use_item popup_link">
+							<i class="header_body_use_icon icon-user"></i>
+							<p class="header_body_use_text">ВОЙТИ</p>
+						</a>
+						<a href="#" class="header_body_use_item">
+							<i class="header_body_use_icon fa fa-star" aria-hidden="true"></i>
+							<p class="header_body_use_text">Избранное</p>
+						</a>
+						<a href="#" class="header_body_use_item">
+							<i class="header_body_use_icon icon-cart"></i>
+							<p class="header_body_use_text">Корзина</p>
+						</a>
+						<a href="#search" class="header_body_use_item popup_link">
+							<i class="header_body_use_icon icon-search"></i>
+							<p class="header_body_use_text">ПОИСК</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="header_catalog">
+				<div class="header_catalog_container">
+					<ul class="catalog">
+						<li data-da=".menu_list, 992, last" class="catalog_item"><a href="#" class="catalog_link">Сноуборд</a></li>
+						<li data-da=".menu_list, 992, last" class="catalog_item"><a href="#" class="catalog_link">Лыжи</a></li>
+						<li data-da=".menu_list, 992, last" class="catalog_item"><a href="#" class="catalog_link">Скейт</a></li>
+						<li data-da=".menu_list, 992, last" class="catalog_item"><a href="#" class="catalog_link">Лонгборд</a></li>
+						<li data-da=".menu_list, 992, last" class="catalog_item"><a href="#" class="catalog_link">Вейкборд</a></li>
+						<li data-da=".menu_list, 992, last" class="catalog_item"><a href="#" class="catalog_link active">Новинки</a></li>
+						<li data-da=".menu_list, 992, last" class="catalog_item"><a href="#" class="catalog_link">Серф</a></li>
+						<li data-da=".menu_list, 992, last" class="catalog_item"><a href="#" class="catalog_link">Sup</a></li>
+						<li data-da=".menu_list, 992, last" class="catalog_item"><a href="#" class="catalog_link">Одежда</a></li>
+						<li data-da=".menu_list, 992, last" class="catalog_item"><a href="#" class="catalog_link">Обувь</a></li>
+						<li data-da=".menu_list, 992, last" class="catalog_item"><a href="#" class="catalog_link">Аксессуары</a></li>
+						<li data-da=".menu_list, 992, last" class="catalog_item"><a href="#" class="catalog_link">Бренды</a></li>
+						<li data-da=".menu_list, 992, last" class="catalog_item"><a href="#" class="catalog_link">Распродажа</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+
+
+
+		<div class="wrapper">
+			<div class="clider_container">
+				<div class="main_slider_actions">
+					<div class="slider_item_actions">
+						<div class="content_slider_action">
+							<h1 class="title_action_slider_ations">WINTER SALE ДО -70%</h1>
+						</div>
+						<div class="container_image_slider_action">
+							<img src="images/Rectangle_63.png" class="image_slider_action"/>
+						</div>
+					</div>
+					<div class="slider_item_actions">
+						<div class="content_slider_action">
+							<h1 class="title_action_slider_ations">LIB TECH</h1>
+						</div>
+						<div class="container_image_slider_action">
+							<img src="images/aeb8ef6c379a5b17228f9ad482cbe1f3.png" class="image_slider_action"/>
+						</div>
+					</div>
+					<div class="slider_item_actions">
+						<div class="content_slider_action">
+							<h1 class="title_action_slider_ations">Serfing</h1>
+						</div>
+						<div class="container_image_slider_action">
+							<img src="images/7cace996e9c8d8dc0d165fe94b98b448.png" class="image_slider_action"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="limited_container_1360">
+				<section class="section_breands">
+					<div class="container_image_breand">
+						<img src="images/image 12.png" class="image_breand"/>
+					</div>
+					<div class="container_image_breand">
+						<img src="images/image 13.png" class="image_breand"/>
+					</div>
+					<div class="container_image_breand">
+						<img src="images/image 14.png" class="image_breand"/>
+					</div>
+					<div class="container_image_breand">
+						<img src="images/image 15.png" class="image_breand"/>
+					</div>
+					<div class="container_image_breand">
+						<img src="images/image 16.png" class="image_breand"/>
+					</div>
+					<div class="container_image_breand">
+						<img src="images/image 17.png" class="image_breand"/>
+					</div>
+					<div class="container_image_breand">
+						<img src="images/image 19.png" class="image_breand"/>
+					</div>
+					<div class="container_image_breand">
+						<img src="images/image 20.png" class="image_breand"/>
+					</div>
+					<div class="container_image_breand">
+						<img src="images/image 21.png" class="image_breand"/>
+					</div>
+					<div class="container_image_breand">
+						<img src="images/image 22.png" class="image_breand"/>
+					</div>
+				</section>
+
+				<section class="section_actions_containers">
+					<a href="" class="container_action">
+						<div class="container_image_action">
+							<img src="images/Rectangle 65.png" class="image_action" />
+						</div>
+						<div class="content_action">
+							<span class="text_action">НАЗВАНИЕ АКЦИИ №1</span>
+						</div>
+					</a>
+					<a href="" class="container_action">
+						<div class="container_image_action">
+							<img src="images/Rectangle 58.png" class="image_action" />
+						</div>
+						<div class="content_action">
+							<span class="text_action">НАЗВАНИЕ АКЦИИ №2</span>
+						</div>
+					</a>
+				</section>
+
+				
+			</div>
+
+			<div class="container_section_new_products">
+				<section class="section_new_products">
+					<h3 class="title_new_products">Новинки</h3>
+					<div class="slider_new_products">
+						<div class="slider_item_new_products">
+							<a href="#" class="container_prewiew_product">
+								<div class="container_image_produst">
+									<img src="images/image_snoubord_1.png" class="image_product"/>
+								</div>
+								<div class="container_icon_product active">
+									<i class="icon_product fa fa-star" aria-hidden="true"></i>
+								</div>
+							</a>
+							<div>
+								<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+								<h3 class="text_product">Мужской Сноуборд</h3>
+								<div class="price_container">
+									<span class="price_product">34392 ₽</span>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="slider_item_new_products">
+							<a href="#" class="container_prewiew_product">
+								<div class="container_image_produst">
+									<img src="images/image_snoubord_2.png" class="image_product"/>
+								</div>
+								<div class="container_icon_product">
+									<i class="icon_product fa fa-star-o" aria-hidden="true"></i>
+								</div>
+								<div class="container_sale_product">
+									<span class="sale_percent_product">-50%</span>
+								</div>
+							</a>
+							<div>
+								<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+								<h3 class="text_product">Мужской Сноуборд</h3>
+								<div class="price_container">
+									<span class="price_product price_old">34392 ₽</span>
+									<span class="price_sale_product">17392 ₽</span>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="slider_item_new_products">
+							<a href="#" class="container_prewiew_product">
+								<div class="container_image_produst">
+									<img src="images/image_snoubord_3.png" class="image_product"/>
+								</div>
+								<div class="container_icon_product">
+									<i class="icon_product fa fa-star-o" aria-hidden="true"></i>
+								</div>
+							</a>
+							<div>
+								<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+								<h3 class="text_product">Мужской Сноуборд</h3>
+								<div class="price_container">
+									<span class="price_product">34392 ₽</span>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="slider_item_new_products">
+							<a href="#" class="container_prewiew_product">
+								<div class="container_image_produst">
+									<img src="images/image_snoubord_4.png" class="image_product"/>
+								</div>
+								<div class="container_icon_product">
+									<i class="icon_product fa fa-star-o" aria-hidden="true"></i>
+								</div>
+							</a>
+							<div>
+								<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+								<h3 class="text_product">Мужской Сноуборд</h3>
+								<div class="price_container">
+									<span class="price_product">34392 ₽</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="slider_item_new_products">
+							<a href="#" class="container_prewiew_product">
+								<div class="container_image_produst">
+									<img src="images/image_snoubord_3.png" class="image_product"/>
+								</div>
+								<div class="container_icon_product">
+									<i class="icon_product fa fa-star-o" aria-hidden="true"></i>
+								</div>
+							</a>
+							<div>
+								<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+								<h3 class="text_product">Мужской Сноуборд</h3>
+								<div class="price_container">
+									<span class="price_product">34392 ₽</span>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="slider_item_new_products">
+							<a href="#" class="container_prewiew_product">
+								<div class="container_image_produst">
+									<img src="images/image_snoubord_3.png" class="image_product"/>
+								</div>
+								<div class="container_icon_product">
+									<i class="icon_product fa fa-star-o" aria-hidden="true"></i>
+								</div>
+							</a>
+							<div>
+								<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+								<h3 class="text_product">Мужской Сноуборд</h3>
+								<div class="price_container">
+									<span class="price_product">34392 ₽</span>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					<a href="#" class="btn_slider_new_products">Показать больше</a>
+				</section>
+			</div>
+
+			<div class="limited_container_1360">
+				<section class="section_main_action">
+					<div class="container_prewiev_action">
+						<div class="container_image_prewiev_action">
+							<img src="images/image_cross.png" class="image_preview_action"/>
+						</div>
+						<div class="content_preview_action">
+							<img src="images/image_breand_action_1.png" class="breand_preview_action"/>
+						</div>
+					</div>
+					<h3 class="title_action">Название Акции</h3>
+					<p class="text_action">Меня не спрашивали, а надо было спросить, что означает имя Заратустры именно в моих устах — в устах первого имморалиста: ведь то, в чём состоит неслыханная уникальность этого перса в истории, являет собою противоположность как раз этому. </p>
+				</section>
+			</div>
+
+			<div class="container_section_new_products">
+				<section class="section_new_products">
+					<h3 class="title_new_products">DC Shoes популярное в коллекции</h3>
+					<div class="slider_new_products">
+						<div class="slider_item_new_products">
+							<a href="#" class="container_prewiew_product">
+								<div class="container_image_produst">
+									<img src="images/image_snoubord_2.png" class="image_product"/>
+								</div>
+								<div class="container_icon_product">
+									<i class="icon_product fa fa-star-o" aria-hidden="true"></i>
+								</div>
+								<div class="container_sale_product">
+									<span class="sale_percent_product">-50%</span>
+								</div>
+							</a>
+							<div>
+								<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+								<h3 class="text_product">Мужской Сноуборд</h3>
+								<div class="price_container">
+									<span class="price_product price_old">34392 ₽</span>
+									<span class="price_sale_product">17392 ₽</span>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="slider_item_new_products">
+							<a href="#" class="container_prewiew_product">
+								<div class="container_image_produst">
+									<img src="images/image_boots.png" class="image_product"/>
+								</div>
+								<div class="container_icon_product">
+									<i class="icon_product fa fa-star-o" aria-hidden="true"></i>
+								</div>
+								<div class="container_sale_product">
+									<span class="sale_percent_product">-50%</span>
+								</div>
+							</a>
+							<div>
+								<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+								<h3 class="text_product">Мужской Сноуборд</h3>
+								<div class="price_container">
+									<span class="price_product price_old">34392 ₽</span>
+									<span class="price_sale_product">17392 ₽</span>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="slider_item_new_products">
+							<a href="#" class="container_prewiew_product">
+								<div class="container_image_produst">
+									<img src="images/image_snoubord_3.png" class="image_product"/>
+								</div>
+								<div class="container_icon_product">
+									<i class="icon_product fa fa-star-o" aria-hidden="true"></i>
+								</div>
+							</a>
+							<div>
+								<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+								<h3 class="text_product">Мужской Сноуборд</h3>
+								<div class="price_container">
+									<span class="price_product">34392 ₽</span>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="slider_item_new_products">
+							<a href="#" class="container_prewiew_product">
+								<div class="container_image_produst">
+									<img src="images/image_snoubord_4.png" class="image_product"/>
+								</div>
+								<div class="container_icon_product">
+									<i class="icon_product fa fa-star-o" aria-hidden="true"></i>
+								</div>
+							</a>
+							<div>
+								<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+								<h3 class="text_product">Мужской Сноуборд</h3>
+								<div class="price_container">
+									<span class="price_product">34392 ₽</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="slider_item_new_products">
+							<a href="#" class="container_prewiew_product">
+								<div class="container_image_produst">
+									<img src="images/image_snoubord_3.png" class="image_product"/>
+								</div>
+								<div class="container_icon_product">
+									<i class="icon_product fa fa-star-o" aria-hidden="true"></i>
+								</div>
+							</a>
+							<div>
+								<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+								<h3 class="text_product">Мужской Сноуборд</h3>
+								<div class="price_container">
+									<span class="price_product">34392 ₽</span>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="slider_item_new_products">
+							<a href="#" class="container_prewiew_product">
+								<div class="container_image_produst">
+									<img src="images/image_snoubord_3.png" class="image_product"/>
+								</div>
+								<div class="container_icon_product">
+									<i class="icon_product fa fa-star-o" aria-hidden="true"></i>
+								</div>
+							</a>
+							<div>
+								<a href="#"><h1 class="name_product">LIB TECH</h1></a>
+								<h3 class="text_product">Мужской Сноуборд</h3>
+								<div class="price_container">
+									<span class="price_product">34392 ₽</span>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					<a href="#" class="btn_slider_new_products">Показать больше</a>
+				</section>
+			</div>
+
+			<section class="section_slider_blogs">
+				<div class="slider_blogs">
+					<div class="slider_item_blog">
+						<div class="container_video_blog">
+							<video controls loop poster="images/poster_video_1.png" src="videos/video_1.mp4" class="video_item"></video>
+						</div>
+						<div class="container_content_slid_blog">
+							<div class="content_head_blog">
+								<span class="sub_title_blog">Блоги</span>
+								<a href="#" class="link_all_blogs">Все блоги</a>
+							</div>
+							<a href="#" class="link_article_blog"><h1 class="title_blog">Очень преочень<br/>длинное название блога</h1></a>
+							<p class="text_blog">Меня не спрашивали, а надо было спросить, что означает имя Заратустры именно в моих устах — в устах первого имморалиста: ведь то, в чём состоит неслыханная уникальность этого перса в истории, являет собою противоположность как раз этому.<br/>
+							Меня не спрашивали, а надо было спросить, что означает имя Заратустры именно в моих устах — в устах первого имморалиста: ведь то, в чём состоит неслыханная уникальность этого перса в истории, являет собою противоположность как раз этому...</p>
+							<div class="container_reed_all">
+								<div class="decor_lide_reed_all"></div>
+								<a href="#" class="link_reed_all">Читать продолжение</a>
+							</div>
+						</div>
+					</div>
+					<div class="slider_item_blog">
+						<div class="container_video_blog">
+							<video controls loop poster="images/poster_video_2.png" src="videos/video_1.mp4" class="video_item"></video>
+						</div>
+						<div class="container_content_slid_blog">
+							<div class="content_head_blog">
+								<span class="sub_title_blog">Блоги</span>
+								<a href="#" class="link_all_blogs">Все блоги</a>
+							</div>
+							<a href="#" class="link_article_blog"><h1 class="title_blog">Очень преочень<br/>длинное название блога</h1></a>
+							<p class="text_blog">Меня не спрашивали, а надо было спросить, что означает имя Заратустры именно в моих устах — в устах первого имморалиста: ведь то, в чём состоит неслыханная уникальность этого перса в истории, являет собою противоположность как раз этому.<br/>
+							Меня не спрашивали, а надо было спросить, что означает имя Заратустры именно в моих устах — в устах первого имморалиста: ведь то, в чём состоит неслыханная уникальность этого перса в истории, являет собою противоположность как раз этому...</p>
+							<div class="container_reed_all">
+								<div class="decor_lide_reed_all"></div>
+								<a href="#" class="link_reed_all">Читать продолжение</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<div class="limited_container_1360">
+				<section class="section_loyalty_program_and_email_subscride">
+					<div class="container_loyalty_program">
+						<div class="container_content_loyalty_program">
+							<img src="images/image_logo_loyalty.png" class="image_logo_loyality"/>
+							<h1 class="title_loyalty_program">Программа лояльности</h1>
+							<p class="text_loyalty_program">Зарабатывайте баллы и получайте преимущества</p>
+							<a href="#" class="btn_loyalty_program">Вступить в клуб</a>
+						</div>
+						
+						<img src="images/image_container_loyality.png" class="image_loyalty_program"/>
+						
+					</div>
+					<div class="container_email_subscride">
+						<div class="container_content_email_subscride">
+							<i class="icon-email main_icon_email_subscride"></i>
+							<h3 class="title_email_subscride">Скидка -10%</h3>
+							<p class="text_email_subscride">За подписку на наши новости</p>
+							<form class="container_input_email_subscride">
+								<input type="text" placeholder="Email" class="input_email_subscride"/>
+								<i class="icon-email icon_email_container_subscride"></i>
+								<button type="submit" class="icon-email-dispatch icon_email_subscride"></button>
+							</form>
+						</div>
+						
+						<img src="images/image_container_email_subscride.png" class="image_email_subscride"/>
+						
+					</div>
+				</section>
+			</div>
+		</div>
+
+
+
+		<footer class="footer">
+			<div class="footer_container">
+				<div class="footer_container_top">
+					<div class="container_logo_footer">
+						<img src="images/logo_footer.png" class="logo_footer"/>
+					</div>
+					<form class="form_input_email_footer">
+						<input placeholder="Подпишись на рассылку и получи  -10%  скидку" type="text" class="input_email_footer"/>
+						<i class="icon_input_email_footer icon-email"></i>
+						<button type="submit" class="btn_send_email_footer icon-email-dispatch"></button>
+					</form>
+				</div>
+				<div class="footer_container_body">
+					<div class="container_accesses_and_contacts_footer">
+						<div class="container_accesses_footer">
+							<h3 class="title_accesses_footer">Доступ к ранним релизам в приложении </h3>
+							<div class="sub_container_accesses_footer">
+								<div class="container_apple_store_and_google_play">
+									<a href="#" class="container_apple_store">
+										<img src="images/image_apple_store.png" class="image_apple_store"/>
+									</a>
+									<a href="#" class="container_google_play">
+										<img src="images/image_google_play.png" class="image_google_play"/>
+									</a>
+								</div>
+								<div class="container_qrcode_footer">
+									<img src="images/QR_Code.png" class="qrcode_footer"/>
+								</div>
+							</div>
+						</div>
+						<div class="container_contacts_footer">
+							<h3 class="title_contacts_footer">Контакты</h3>
+							<div class="container_phone_contact_footer container_contact_footer">
+								<div class="container_icon_phone_contact_footer container_icon_contact_footer">
+									<i class="icon_phone_contact_footer icon_contact_footer icon-footer-phone"></i>
+								</div>
+								<div class="container_content_phone_contact_footer container_content_contact_footer">
+									<a href="tel:8 (800) 511-74-68" class="phone_contact_footer contact_footer">8 (800) 511-74-68 </a>
+									<span class="text_phone_contact_footer text_contact_footer">Бесплатная горячая линия
+										Ежедневно с 9 до 21</span>
+								</div>
+							</div>
+							<div class="container_email_contact_footer container_contact_footer">
+								<div class="container_icon_email_contact_footer container_icon_contact_footer">
+									<i class="icon_email_contact_footer icon_contact_footer icon-email"></i>
+								</div>
+								<div class="container_content_email_contact_footer container_content_contact_footer">
+									<span class="email_contact_footer contact_footer">Контактный Email</span>
+									<a href="#" class="text_email_contact_footer text_contact_footer">info@brd.ru</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="container_list_site">
+						<h3 class="title_list_site">Помощь</h3>
+						<ul class="list_site">
+							<li class="list_site_item"><a href="#" class="list_site_link">Доставка</a></li>
+							<li class="list_site_item"><a href="#" class="list_site_link">Оплата</a></li>
+							<li class="list_site_item"><a href="#" class="list_site_link">Возврат</a></li>
+							<li class="list_site_item"><a href="#" class="list_site_link">Отзывы (2290)</a></li>
+							<li class="list_site_item"><a href="#" class="list_site_link">Акции и скидки</a></li>
+						</ul>
+					</div>
+					<div class="container_list_site">
+						<h3 class="title_list_site">Компания</h3>
+						<ul class="list_site">
+							<li class="list_site_item"><a href="#" class="list_site_link">Контакты</a></li>
+							<li class="list_site_item"><a href="#" class="list_site_link">О boardriders</a></li>
+							<li class="list_site_item"><a href="#" class="list_site_link">Вакансии</a></li>
+							<li class="list_site_item"><a href="#" class="list_site_link">Публичная оферта</a></li>
+						</ul>
+					</div>
+					<div class="container_list_site">
+						<h3 class="title_list_site">Boardriders Inc.</h3>
+						<ul class="list_site">
+							<li class="list_site_item"><a href="#" class="list_site_link">Франчайзинг</a></li>
+							<li class="list_site_item"><a href="#" class="list_site_link">Quiksilver</a></li>
+							<li class="list_site_item"><a href="#" class="list_site_link">Roxy</a></li>
+							<li class="list_site_item"><a href="#" class="list_site_link">DC Shoes</a></li>
+							<li class="list_site_item"><a href="#" class="list_site_link">Boardriders Club</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer_container_bottom">
+					<div class="container_social_links_footer">
+						<a href="#" class="social_link_footer"><i class="icon_social_link_footer fa fa-twitter" aria-hidden="true"></i></a>
+						<a href="#" class="social_link_footer"><i class="icon_social_link_footer fa fa-facebook-official" aria-hidden="true"></i></a>
+						<a href="#" class="social_link_footer"><i class="icon_social_link_footer fa fa-twitch" aria-hidden="true"></i></a>
+						<a href="#" class="social_link_footer"><i class="icon_social_link_footer fa fa-youtube-play" aria-hidden="true"></i></a>
+						<a href="#" class="social_link_footer"><i class="icon_social_link_footer fa fa-instagram" aria-hidden="true"></i></a>
+					</div>
+					<div class="container_sub_text_footer">
+						<p class="sub_text_footers">© 2020 Brd.ru. Все права защищены</p>
+					</div>
+				</div>
+			</div>
+			<div class="container_background_footer">
+				<img src="images/image_background_footer.png" class="image_background_footer"/>
+			</div>
+		</footer>
+
+		<div id="search" class="popup">
+			<div class="popup_body">
+				<div class="popup_content popup_content_search">
+					<a href="#" class="popup_close popup_close_search close-popup"><img src="images/Vector.png" class="icon_image_close_popup"/></a>
+					<div class="popup_search">
+						<h1 class="popup_search_title">Поиск</h1>
+						<input type="text" placeholder="search" class="input_search"/>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="registration" class="popup">
+			<div class="popup_body">
+				<div class="popup_content popup_content_registration">
+					<a href="#" class="popup_close popup_close_registration close-popup"><img src="images/Vector.png" class="icon_image_close_popup"/></a>
+					<div class="popup_registration">
+						<h4 class="popup_registration_title">Чтобы воспользоваться быстрым бронированием выполните<br/>вход или зарегистрируйтесь на сайте</h4>
+						<div class="container_intrance_and_registration">
+							<form class="container_intrance">
+								<span class="text_intrance text_popup_registration">Вход</span>
+								<div class="container_input_intrance_email_or_phone container_input_popup_registration">
+									<span class="text_input_intrance_email_or_phone text_input_popup_registration">Номер телефона или email</span>
+									<input type="text" class="input_intrance_email_or_phone input_popup_registration"/>
+								</div>
+								<div class="container_input_intrance_password container_input_popup_registration">
+									<span class="text_input_intrance_password text_input_popup_registration">Пароль</span>
+									<input type="password" class="input_intrance_password input_popup_registration"/>
+								</div>
+								<div class="container_checkbox container_checkbox_intrance">
+									<div class="checkbox">
+										<input type="checkbox" class="checkbox_input checkbox_intrance_input" id="checkbox_intrance"/>
+										<label class="checkbox_label" for="checkbox_intrance">Запомнить меня</label>
+									</div>
+									
+									<a href="#" class="text_forgot_me">Забыли пароль?</a>
+								</div>
+								<button type="submit" class="btn_intrance btn_popup_registration">Войти</button>
+							</form>
+							<form class="container_registration">
+								<span class="text_regisration text_popup_registration">Регистрация</span>
+								<div class="container_input_registration_name container_input_popup_registration">
+									<span class="text_input_registration_name text_input_popup_registration">Имя*</span>
+									<input type="text" class="input_registration_name input_popup_registration"/>
+								</div>
+								<div class="container_input_registration_email container_input_popup_registration">
+									<span class="text_input_registration_email text_input_popup_registration">Еmail*</span>
+									<input type="text" class="input_registration_email input_popup_registration"/>
+								</div>
+								<div class="container_input_registration_phone container_input_popup_registration">
+									<span class="text_input_registration_phone text_input_popup_registration">Номер телефона*</span>
+									<input type="text" class="input_registration_phone input_popup_registration"/>
+								</div>
+								<div class="container_checkbox container_checkbox_registration">
+									<div class="checkbox">
+										<input type="checkbox" class="checkbox_input checkbox_registration_input" id="checkbox_registration"/>
+										<label class="checkbox_label" for="checkbox_registration">Вы соглашаетесь с правилами</label>
+									</div>
+								</div>
+								<button type="submit" class="btn_registration btn_popup_registration">Зарегистрироваться</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--Подключаем jQuery.-->
+		<script src="js/jquery-3.6.0.min.js"></script>
+
+		<!--Подключаем слайдер Slick.-->
+		<script src="js/slick.min.js"></script>
+		
+		<!-- Подключаем jQuery ui -->
+		<!-- <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+		<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script> -->
+		
+		<!-- Подключаем адаптивный сайтбар -->
+		<!--<script src="js/slideout.min.js"></script>
+		<script src="js/slideout-script.js"></script>-->
+		
+		<!--Подключаем скрипт jQuery ui -->
+		<!--
+		<script>
+		  $( function() {
+			$( "#accordion" ).accordion();
+		  } );
+		</script>
+		-->
+		<!--Подключаем анимации wow.js-->
+		<script src="js/wow.min.js"></script>
+        <script src="js/wow.js"></script>
+
+		<!--Подключаем файл скриптов.-->
+		<script src="js/script.js"></script>
+	</body>
+</html>
